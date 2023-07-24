@@ -1,0 +1,35 @@
+
+body{
+    margin: 0;
+}
+
+.st-container{
+    margin: 0  0;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+
+
+ul{ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap : 20px ;
+}
+
+.upper-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
