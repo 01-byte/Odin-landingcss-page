@@ -6,7 +6,12 @@ body{
 .st-container{
     margin: 0  0;
     background-color: #1f2937;
-    color: #f9faf8;
+    color: #f9faf8; 
+    padding: 0 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -21,15 +26,50 @@ ul{
 .upper-header{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    
 }
 
 
-
-.header-container{
+.up-content { 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.box{
+    background-color: gray;
+    padding: 50px 50px;
+    margin: 20px;
+}
+
+.hero-font{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    margin: 0 0;
+}
+
+.upper-right-content{
+    display: flex;
+    flex-direction: column ;
+    flex:1;
+    max-width: 400px;
+    padding: 10px 10px ;
+}
+
+.upper-left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+     color: #f9faf8;
 }
