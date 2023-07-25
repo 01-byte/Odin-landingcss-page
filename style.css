@@ -30,6 +30,7 @@ ul{
     display: flex;
     flex-direction: row;
     gap : 15px ;
+    
 }
 
 .upper-header{
@@ -82,6 +83,7 @@ ul{
     padding: 10px;
     max-width: 100px;
      color: #f9faf8;
+     cursor: pointer;
 }
 
 
@@ -174,4 +176,10 @@ ul{
     color: #f9faf8;
     box-sizing: border-box;
     border-style: solid;
+}
+
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
 }
