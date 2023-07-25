@@ -75,13 +75,15 @@ ul{
     align-items: center;
 }
 
-button {
+.button-up{
     background-color: #3882f6;
     border: none;
-    border-radius: 20px;
-    padding: 10px 30px;
+    border-radius: 550px;
+    padding: 10px;
+    max-width: 100px;
      color: #f9faf8;
 }
+
 
 .bluebox{
     border: 2px;
@@ -123,8 +125,6 @@ button {
     padding: 200px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: column;
     gap: 50px;
 }
 
@@ -139,8 +139,27 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .box-quote{
     max-width: 800px;
+}
+
+
+.th-container  { 
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box-msg{
+    background-color: #3882f6;
+    padding: 40px 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    
 }
